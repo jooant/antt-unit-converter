@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background: #F4F4F4;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #6943FF;
+    height: 285px;
+}
+
+h1{
+    margin: 0;
+    color: #ffffff;
+}
+
+#input-value{
+    box-sizing: content-box;
+    field-sizing: content;
+    min-width: 2ch; 
+    height: 70px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 58px;
+    background:#6943FF;
+    color: #ffffff;
+    border: 1px solid #F4F4F4;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#btn-convert{
+    width: 115px;
+    height: 40px;
+    background: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#btn-convert:hover{
+    transform: scale(1.05);
+    background: #F4F4F4;
+}
+
+#btn-convert:active{
+    transform: scale(0.93);
+    background: #F4F4F4;
+}
+
+#container{
+    margin: 36px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 355px;
+}
+
+.convert-wrapper{
+    margin: 0 20px;
+    height: 105px;
+    background: #ffffff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5A537B;
+    margin-bottom: 0;
+}
+
+#length-convert, #volume-convert, #mass-convert{
+    margin-top: 0;
+}
