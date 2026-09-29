@@ -1,3 +1,5 @@
+<img width="1917" height="859" alt="image" src="https://github.com/user-attachments/assets/e990eaf9-b986-413f-8ef3-1d5f2326d0d6" />
+
 # Metric/Imperial Unit Conversion
 
 A simple web app that converts a number between metric and imperial units: length, volume and mass. It was built as a Scrimba Fullstack Developer Path project.
